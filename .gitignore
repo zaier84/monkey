@@ -1,0 +1,23 @@
+# Binaries
+/bin/
+/build/
+
+# Go build cache
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+
+# Dependency directories (if any)
+vendor/
+
+# IDE files
+.vscode/
+.idea/
