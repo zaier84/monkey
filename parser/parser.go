@@ -22,6 +22,7 @@ func New(l *lexer.Lexer) *Parser {
 		errors: []string{},
 	}
 
+	// Read two tokens, so curToken and peekToken are both set
 	p.nextToken()
 	p.nextToken()
 
